@@ -19,7 +19,7 @@ namespace Data_Storage_Conversion
 
         private void btnExit_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Do you want to exit?", "Exit", MessageBoxButtons.YesNo) == DialogResult.Yes))
+            if (MessageBox.Show("Do you want to exit?", "Exit", MessageBoxButtons.YesNo) == DialogResult.Yes)
             {
                 this.Close();
             }
